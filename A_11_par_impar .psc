@@ -1,10 +1,12 @@
-Algoritmo par_impar_11
-	Definir a Como Entero;
-	Escribir "Descubramos si un numero es par o impar";
-	Leer a;
-	Si a MOD 2 = 0 Entonces
-		Escribir a, " es par";
-	SiNo
-		Escribir a, " es impar";
-	Fin Si
-FinAlgoritmo
+Proceso ParOImpar
+    Definir numero Como Entero
+	
+    Escribir "Ingrese un número natural:"
+    Leer numero
+	
+    Si numero MOD 2 = 0 Entonces
+        Escribir "El número es PAR."
+    Sino
+        Escribir "El número es IMPAR."
+    FinSi
+FinProceso
