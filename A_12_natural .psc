@@ -1,16 +1,16 @@
-Algoritmo natural_12
-	Definir a Como Entero;
-	Escribir "Escriba un numero y averiguemos si es positivo, negativo o nulo";
-	Leer a;
-	Si a = 0 Entonces
-		Escribir "Su numero es nulo";
-	SiNo
-		Si a > 0 Entonces
-			Escribir "Su numero es positivo";
-		SiNo
-			Si a < 0 Entonces
-				Escribir "Su numero es negativo";
-			Fin Si
-		Fin Si
-	Fin Si
-FinAlgoritmo
+Proceso TipoDeNumero
+    Definir numero Como Real
+	
+    Escribir "Ingrese un número:"
+    Leer numero
+	
+    Si numero > 0 Entonces
+        Escribir "El número es POSITIVO."
+    Sino
+        Si numero < 0 Entonces
+            Escribir "El número es NEGATIVO."
+        Sino
+            Escribir "El número es NULO (cero)."
+        FinSi
+    FinSi
+FinProceso
