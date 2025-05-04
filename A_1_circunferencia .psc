@@ -1,5 +1,5 @@
 Algoritmo circunferencia_1
-	Escribir "¿Desea conocer la circunferencia de un circulo con radio r?";
+	Escribir "Â¿Desea conocer la circunferencia de un circulo con radio r?";
 	Definir r Como Entero;
 	Escribir "Ingrese el radio";
 	Leer r;
